@@ -1,0 +1,82 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/bianji/list",
+    "pages/bianji/add-or-update",
+    "pages/bianji/detail",
+    "pages/yonghuwenzhang/list",
+    "pages/yonghuwenzhang/add-or-update",
+    "pages/yonghuwenzhang/detail",
+    "pages/wenzhangfenlei/list",
+    "pages/wenzhangfenlei/add-or-update",
+    "pages/wenzhangfenlei/detail",
+    "pages/wenzhangzhanshi/list",
+    "pages/wenzhangzhanshi/add-or-update",
+    "pages/wenzhangzhanshi/detail",
+    "pages/wenzhanggaochou/list",
+    "pages/wenzhanggaochou/add-or-update",
+    "pages/wenzhanggaochou/detail",
+    "pages/tongzhigonggao/list",
+    "pages/tongzhigonggao/add-or-update",
+    "pages/tongzhigonggao/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/discusswenzhangzhanshi/list",
+    "pages/discusswenzhangzhanshi/add-or-update",
+    "pages/discusswenzhangzhanshi/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "微信小程序的在线投稿系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1798F2",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/yonghuwenzhang/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "用户文章"
+      },
+      {
+        "pagePath": "pages/wenzhangzhanshi/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "文章展示"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
